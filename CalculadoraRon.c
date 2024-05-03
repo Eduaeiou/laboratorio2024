@@ -2,7 +2,7 @@
 
 int main()
 {
-    int num1,num2,suma,resta,multiplicacion;
+    int num1,num2,suma,resta,multiplicacion,division;
     printf("Ingresar un numero: ");
     scanf("%i",&num1);
     printf("Ingresar el otro numero: ");
@@ -23,6 +23,16 @@ int main()
     scanf("%i",&num2);
     multiplicacion=num1*num2;
     printf ("%i\n",multiplicacion);
+
+     printf("Ingresar un numero: ");
+    scanf("%i",&num1);
+    printf("Ingresar el otro numero: ");
+    scanf("%i",&num2);
+    division=num1/num2;
+    printf ("%i\n",division);
+
+
+
 
 
     return 0;
